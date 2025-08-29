@@ -31,13 +31,19 @@ It allows you to easily view running containers, manage them, and execute comman
 ## 🚀 Установка и запуск / Installation & Usage
 
 # Скачайте скрипт / Download script
+```shell
 wget https://example.com/docker_manager.sh -O docker_manager.sh
+```
 
 # Сделайте его исполняемым / Make it executable
+```shell
 chmod +x docker_manager.sh
+```
 
 # Запустите / Run
+```shell
 ./docker_manager.sh
+```
 
 ---
 
@@ -74,3 +80,4 @@ This project is licensed under the MIT License.
 ------------------------------------------------------------------------------------------
   1 | my_app               | active     | myimage:latest                 | 8080
   2 | redis                | stopped    | redis:alpine                   | N/A
+```
