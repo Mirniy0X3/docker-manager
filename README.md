@@ -60,8 +60,13 @@ chmod +x docker_manager.sh
   - b → Назад / Back
   - q → Выход / Quit
 
-# 📷 Пример работы / Example Output
+# Лицензия / License
 
+Этот проект распространяется под лицензией MIT.
+This project is licensed under the MIT License.
+
+# 📷 Пример работы / Example Output
+```bash
 === Менеджер Docker-контейнеров ===
 (обновление списка каждые 5 сек)
 
@@ -69,8 +74,3 @@ chmod +x docker_manager.sh
 ------------------------------------------------------------------------------------------
   1 | my_app               | active     | myimage:latest                 | 8080
   2 | redis                | stopped    | redis:alpine                   | N/A
-
-# Лицензия / License
-
-Этот проект распространяется под лицензией MIT.
-This project is licensed under the MIT License.
